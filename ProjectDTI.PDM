@@ -1,0 +1,122 @@
+[Root]
+Most Recent Package=Aplikasi Master
+
+
+[Package|Aplikasi Master|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Worka\Aplikasi Install\Aplikasi Master
+
+[Package|Aplikasi Master|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Aplikasi Master|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Aplikasi Master|Files Found]
+
+[Package|Aplikasi Master|Files Released]
+
+[Package|Aplikasi Master|Missing Dependency Information]
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|Aplikasi Master|Out-of-Date Dependency Information]
+C:\Windows\System32\mscomct2.ocx=
+C:\Windows\System32\msmask32.ocx=
+C:\Windows\System32\tabctl32.ocx=
+C:\Windows\System32\MSBIND.DLL=
+C:\Windows\System32\MSSTDFMT.DLL=
+
+[Package|Aplikasi Master|Files Added]
+D:\Worka\Aplikasi Master\001.jpg=
+D:\Worka\Aplikasi Master\002.jpg=
+D:\Worka\Aplikasi Master\db.mdb=
+
+[Package|Aplikasi Master|Files Removed]
+
+[Package|Aplikasi Master|Files In Project]
+D:\Worka\Aplikasi Master\ProjectDTI.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\tabctl32.ocx=Yes
+C:\Windows\System32\msmask32.ocx=Yes
+C:\Windows\System32\mscomct2.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Worka\Aplikasi Master\001.jpg=Yes
+D:\Worka\Aplikasi Master\002.jpg=Yes
+D:\Worka\Aplikasi Master\db.mdb=Yes
+
+[Package|Aplikasi Master|Configure Registry Files]
+Applicable=No
+
+[Package|Aplikasi Master|Configure Remote Servers]
+Applicable=No
+
+[Package|Aplikasi Master|Install Locations]
+D:\Worka\Aplikasi Master\ProjectDTI.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\tabctl32.ocx=$(WinSysPath)
+C:\Windows\System32\msmask32.ocx=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Worka\Aplikasi Master\001.jpg=$(AppPath)
+D:\Worka\Aplikasi Master\002.jpg=$(AppPath)
+D:\Worka\Aplikasi Master\db.mdb=$(AppPath)
+
+[Package|Aplikasi Master|Configure Shared Files]
+Applicable=Yes
+D:\Worka\Aplikasi Master\ProjectDTI.exe=No
+D:\Worka\Aplikasi Master\001.jpg=No
+D:\Worka\Aplikasi Master\002.jpg=No
+D:\Worka\Aplikasi Master\db.mdb=No
+
+[Package|Aplikasi Master|Distribution]
+Type=single
+Size=
+Title=Aplikasi Master
+
+[Package|Aplikasi Master|IconGroups]
+Group0=Aplikasi Master
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Aplikasi Master|Aplikasi Master]
+Icon1=ProjectDTI.exe
+Title1=Aplikasi Master
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Aplikasi Master|Package]
+PackageFolder=D:\Worka\Aplikasi Install\Aplikasi Master
+ProjectFolder=D:\Worka\Aplikasi Master
+ServerSideCab=
+File1=D:\Worka\Aplikasi Install\Aplikasi Master\setup.exe
+File2=D:\Worka\Aplikasi Install\Aplikasi Master\Setup.Lst
+File3=D:\Worka\Aplikasi Install\Aplikasi Master\ProjectDTI.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

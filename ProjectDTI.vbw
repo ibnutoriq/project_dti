@@ -1,0 +1,8 @@
+FrmGajiKaryawan = 53, 67, 1000, 390, , 90, 10, 1120, 678, C
+FrmDataKaryawan = 122, 146, 1070, 597, , 147, 17, 1094, 668, C
+FrmMenuUtama = 25, 98, 972, 549, C, 45, -4, 992, 541, C
+FrmDataBarangInstallasi = 137, 76, 981, 552, , 79, -12, 1106, 629, C
+FrmDataOperasional = 146, 102, 1044, 502, C, 73, 42, 1105, 830, C
+FrmDataAbsensi = 115, 45, 1031, 496, C, 195, -4, 1111, 648, C
+FrmPurchaseOrder = 109, 89, 1025, 540, C, 75, 75, 991, 526, C
+FrmAbout = 0, 0, 916, 451, C, 169, 38, 1085, 489, C
